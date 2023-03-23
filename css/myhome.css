@@ -8,8 +8,13 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.52857143;  
-  
 }
+main {
+  width: 100vw;
+  overflow: hidden;
+}
+  
+
 h1 {
   margin-bottom: 0.5em;
   font-size: 3.6rem;
@@ -71,7 +76,7 @@ p {
   z-index: 99999;
 }
 .navbar .navbar-brand {
-  font-family: 'Bazinga!';
+  font-family: 'Bangers';
   font-size: 3rem;
   color: #ccd63f;
   -webkit-text-stroke-width: 1px;
@@ -311,7 +316,7 @@ p {
          font-weight: 600;
          color: #ffff;
          padding: 5px;
-         font-family: 'Bazinga!';
+         font-family: 'Bangers';
          -webkit-text-stroke-width: 1px;
          -webkit-text-stroke-color: black;
 
@@ -321,7 +326,7 @@ p {
          font-size: 30px;
          font-weight: 700;
          color: #060606;
-         font-family: 'Bazinga!';
+         font-family: 'Bangers';
          letter-spacing: 1px;
       
 
@@ -329,7 +334,7 @@ p {
      #workTxt p{
          font-size: 14px;
          color: #060606;
-         font-family: 'Bazinga!';
+         font-family: 'Bangers';
          
      }
      #bg1{
@@ -471,29 +476,27 @@ p {
 @media screen and (max-width:769px){
       ul li{
          font-size: 20px;  
-   }
+    }
+      #myHeading h1{
+         font-size: 90px;
+      }
+
 }
 
+@media screen and (max-width:500px){
+   
+      #myHeading h1{
+         font-size: 56px;
+      }
 
+}
+@media screen and (max-width:375px){
+   
+      #myHeading h1{
+         font-size: 36px;
+      }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
