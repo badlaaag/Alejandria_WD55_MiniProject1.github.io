@@ -268,13 +268,13 @@ p {
         }
      #myHeading h1{
          text-align: center;
-         font-family: poppins;
-         font-size: 100px;
+         font-family: 'Bangers';
+         font-size: 150px;
          font-weight: 800;
          text-transform:uppercase;
-         color: #d5df44;
-         font-style: italic;
-         letter-spacing: -4px;
+         color: #ccd63f;
+          letter-spacing: 1px;
+         
      }
 
      #text1{  
